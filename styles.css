@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'ati';
+  src: url('9x16.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+}
+
+body {
+	font-family: 'ati', Fallback, sans-serif;
+	background-color: black;
+	color:#14A20D;
+	font-size: 15px;
+	height: 100vh;
+}
+
+h1 {
+	color: #14A20D;
+	font-size: 15px;
+	font-weight: 100;
+
+}
+
+.instructions {
+	text-align: right;
+}
+
+.topic {
+	text-align: left;
+	margin-top: 20vh;
+}
+
+.inputDIV {
+	text-align: left;
+}
+
+.outputDIV {
+	text-align: left;
+}
+
+.inputText {
+	background-color: black;
+	color:#14A20D;
+	border: none;
+	font-family: 'ati', Fallback, sans-serif;
+	font-size: 15px;
+
+}
+
+.inputText:focus {
+	outline: 0;
+	width: 100%;
+}
+
+.inputLabel {
+	width: 100% !important;
+	height: 70vh !important;
+	position:fixed;
+	margin:0;
+	bottom:0;
+}
