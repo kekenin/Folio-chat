@@ -11,7 +11,15 @@ Folio-chat 2.0. A secure, databaseless, minimalistic, open-source PHP chat for q
 <p>-Minimalistic hud</p>
 <p>-No installation required. Can be deployed on any Apache PHP server (webroot folder).</p>
 
-
+<h2>Main work flow</h2>
+<p>1. User inputs a channel name to be joined. The channel name is hashed and stored to session variable.</p>
+<p>2. User inputs a alias to be used. The alias is stored to session variable.</p>
+<p>3. Check if the hashed channel value exists. If it doesn't, create a file using hash as a filename outside the webroot.
+<p>4. Write a join message with "keep" HTML-class to the channel file.</p>
+<p>5. Read the content of the channel file and print with suitable HTML-tags.</p>
+<p>6. Create and time a JS-function to make AJAX-call every 1,5 seconds to connector.php file to constantly read and print the content of the channel file.</p>
+<p>7. User inputs a message to be displayed on the channel. Message is appended to existing channel file with suitable HTML-tags.</p>
+  
 <h2>Security features</h2>
 
 <p>-Common best practices used on user input validation, session variables and AJAX.</p>
