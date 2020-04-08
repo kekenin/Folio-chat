@@ -1,6 +1,6 @@
 <h1>Folio-chat 2.0</h1><p>
 
-Folio-chat 2.0. A secure, databaseless, minimalistic, open-source PHP chat for quick and safe message exchange between users on the same channel.
+<p>Folio-chat 2.0. A secure, databaseless, minimalistic, open-source PHP chat for quick and safe message exchange between users on the same channel.</p>
 <img src="https://raw.githubusercontent.com/kekenin/Folio-chat/master/folioChat.png">
 
 
